@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3{
+            color: rgb(245, 191, 75);
+            background-color: black;
+            font-size:x-large;
+        }
+        .s1{
+            color: aqua;
+            background-color: rgb(70, 1, 134);
+        }
+        .s2{
+            color: brown;
+            background-color: rgb(245, 245, 93);
+        }
+        #li1{
+            color: rgb(86, 189, 18);
+            background-color: aqua;
+        }
+.s3{
+    color: blue;
+    background-color: rgb(244, 121, 90);
+}
+.s4{
+    color: bisque;
+    background-color: rgb(3, 49, 70);
+}
+#li2{
+    color: rgb(162, 225, 54);
+}
+#li3{
+    color: rgb(162, 225, 54);
+}
+.s5{
+    color: antiquewhite;
+    background-color: rgb(226, 43, 43);
+}
+.s6{
+    background-color: rgb(37, 48, 89);
+}
+.s7{
+    color: rgb(186, 200, 104);
+    background-color: rgb(17, 79, 50);
+}
+.s8{
+    color: rgb(102, 255, 0);
+    background-color: rgb(56, 11, 27);
+}
+    </style>
+       
+</head>
+<body>
+    <h3><center><u>Cascading style Sheet</u></center></h3>
+    <p class="s1">Cascading Style Sheets, is a style sheet language used to describe the visual presentation of a document written in HTML. CSS describes how elements should be rendered on screen.   It enables web designers to control the layout, colors, fonts, and other visual aspects of multiple web pages all at once. 
+        In Cascading Style Sheets (CSS), cascading is the logic that browsers use to determine which CSS rulesets are most important when they conflict with each other. The cascade is central to CSS and is used to solve conflicts when multiple CSS rules apply to an HTML element. For example, if a button is styled with both `button { color: red; }` and `button { color: blue; }`, the cascade will determine that the button's text should be blue.
+        </p>
+        <h3><center>How to insert css into html</center></h3>
+        <section class="s2">
+        <details >
+            <summary><strong>Inline Styling</strong></summary>
+                <p id="li1">Inline Styling:  In inline styling CSS styles directly apply to the individual HTML elements using the style attribute.</p>
+            </details>
+
+        <details>
+                <summary id=><strong>Internal styling</strong></summary>
+                <p>Internal Styling:  Internal styling in CSS refers to the method of embedding CSS rules directly within the HTML document using the tag.</p>
+              </details>
+
+              <details>
+                <summary><strong>External Styling</strong></summary>
+                <p>External Styling: External CSS is used to style multiple HTML pages with a single style sheet. External CSS contains a separate CSS file with a .css extension</p>
+              </details>
+            </section>
+
+              <h3><center>Specificity</center></h3>
+                <p class="s3">Inline styles have higher specificity compared to internal and external styles.</p>
+
+                <h3><center>Why Inline Styles Are More Specific</center></h3>
+                <ol class="s4">
+                    <li><strong id="li2">Direct Application Over Selector Types:</strong> Inline styles are applied directly to the element, bypassing the need for selector matching. The browser prioritizes these direct instructions because they are seen as explicit and unambiguous.</li>
+                    <li><strong id="li3">CSS Cascading and Importance:</strong> The cascading nature of CSS is designed to ensure that more specific rules take precedence. Inline styles are considered the most specific because they apply directly to the element, making them more specific than any styles defined in stylesheet.</li>
+                </ol>
+
+                <h3><center>CSS SELECTORS</center></h3>
+                <ul class="s5">
+                    <strong>
+                    <li>Simple Selectors</li>
+                    <li>Pseudo Selectors</li>
+                    <li>Combinators Selectors</li>
+                    <li>Attribute Selectors</li>
+                </strong>
+                </ul>
+             <center class="s6">
+                <img src="https://www.tutorialspoint.com/css/images/syntax.png" >
+              </center>
+
+              <h3><strong ><center>SIMPLE SELECTORS</center></strong></h3>
+              <p class="s7">A simple selector in CSS refers to the most basic form of selecting elements on a webpage. It can target elements based on various criteria like tag name, class, id, attributes, or their relationship with other elements.</p>
+               
+              <ol class="s8">
+                <strong>
+                <li>Element Selectors</li>
+                <li>Universal Selectors</li>
+                <li>Id selectors</li>
+                <li>class selectors</li>
+                <li>grouping selectors</li>
+                </strong>
+              </ol>
+            </body>
+            </html>
+                
+
+         
